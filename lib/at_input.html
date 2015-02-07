@@ -9,7 +9,7 @@
         {{displayName}} {{#unless required}}{{optionalText}}{{/unless}}
       </label>
     {{/if}}
-    <input type="{{type}}" id="at-field-{{_id}}" name="at-field-{{_id}}" placeholder="{{#unless showLabels}} {{placeholder}} {{/unless}}" autocapitalize="none" autocorrect="off" class="{{#if hasError}}invalid{{/if}}">
+    <input class="validate {{#if hasError}}invalid{{/if}} {{#if hasSuccess}}valid{{/if}}" type="{{type}}" id="at-field-{{_id}}" name="at-field-{{_id}}" placeholder="{{#unless showLabels}} {{placeholder}} {{/unless}}" autocapitalize="none" autocorrect="off">
     {{#if hasIcon}}
         <span class="{{iconClass}}"></span>
     {{/if}}
