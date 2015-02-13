@@ -1,9 +1,5 @@
 [![Build Status](https://travis-ci.org/meteor-useraccounts/materialize.svg?branch=master)](https://travis-ci.org/meteor-useraccounts/materialize)
 
-# WIP
-
-This project is still under development and was not published to Atmosphere yet!
-
 # useraccounts:materialize
 
 Meteor sign up and sign in templates (and much more!) styled for Materialize Css
