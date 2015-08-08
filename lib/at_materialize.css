@@ -1,7 +1,7 @@
-.at-social-btn, .at-btn.submit {
+.at-social-btn,
+.at-btn.submit {
   min-width: 100%;
 }
-
 #at-facebook {
   background: #3B5998;
   color: #fff;
@@ -13,7 +13,6 @@
 #at-facebook:hover {
   background: #2C4780;
 }
-
 #at-linkedin {
   background: #338AB0;
   color: #fff;
@@ -25,7 +24,6 @@
 #at-linkedin:hover {
   background: #0571A6;
 }
-
 #at-twitter {
   background: #4099FF;
   color: #fff;
@@ -37,7 +35,6 @@
 #at-twitter:hover {
   background: #3288EB;
 }
-
 #at-google {
   background: #db5a3c;
   color: #fff;
@@ -49,7 +46,6 @@
 #at-google:hover {
   background: #CA4C2E;
 }
-
 #at-github {
   background: #666;
   color: #fff;
@@ -61,7 +57,6 @@
 #at-github:hover {
   background: #555;
 }
-
 .at-input.validating * {
-  cursor:progress;
+  cursor: progress;
 }
