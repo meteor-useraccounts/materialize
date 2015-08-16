@@ -2,19 +2,21 @@
 
 # useraccounts:materialize
 
-Meteor sign up and sign in templates (and much more!) styled for Materialize Css
+Meteor sign up and sign in templates (and much more!) styled for [Materialize CSS](http://materializecss.com/).
 
-This package depends on [useraccounts:core](https://atmospherejs.com/useraccounts/core)
+[Demo](https://useraccounts-materialize.meteor.com/) • [Boilerplate with iron:router ](https://github.com/meteor-useraccounts/boilerplates/tree/master/materialize) • [Boilerplate with FlowRouter ](https://github.com/meteor-useraccounts/boilerplates/tree/master/materialize-flow-router)
+
+This package depends on [useraccounts:core](https://atmospherejs.com/useraccounts/core).
 
 Learn more [here](http://useraccounts.meteor.com) or have a look at the full [documentation](https://github.com/meteor-useraccounts/core/blob/master/Guide.md).
 
 
-## Bring Your Own Materialize Css
+## Bring Your Own Materialize CSS
 
-Adding this package with `meteor add useraccounts:materialize` does not add any other packages providing Materialize Css. This is to let you choose the flavour you prefer, being it compiled, less, sass, or from CDN!
+Adding this package with `meteor add useraccounts:materialize` does not add any other packages providing Materialize CSS. This is to let you choose the flavour you prefer, be it [compiled](https://atmospherejs.com/materialize/materialize), LESS, SASS, or [from CDN](http://materializecss.com/getting-started.html)!
 
 
-At the moment it is up to date with Materialize Css X.X.X
+At the moment it is up to date with Materialize CSS 0.97.0.
 
 
 ## Contributing
