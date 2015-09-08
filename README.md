@@ -4,7 +4,7 @@
 
 Meteor sign up and sign in templates (and much more!) styled for [Materialize CSS](http://materializecss.com/).
 
-[Demo](https://useraccounts-materialize.meteor.com/) • [Boilerplate with iron:router ](https://github.com/meteor-useraccounts/boilerplates/tree/master/materialize) • [Boilerplate with FlowRouter ](https://github.com/meteor-useraccounts/boilerplates/tree/master/materialize-flow-router)
+[Demo](https://useraccounts-materialize.meteor.com/) • [Boilerplate with iron:router ](https://github.com/meteor-useraccounts/boilerplates/tree/master/materialize-iron-router) • [Boilerplate with FlowRouter ](https://github.com/meteor-useraccounts/boilerplates/tree/master/materialize-flow-router)
 
 This package depends on [useraccounts:core](https://atmospherejs.com/useraccounts/core).
 
