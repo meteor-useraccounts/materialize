@@ -1,3 +1,4 @@
+[![Meteor Icon](http://icon.meteor.com/package/useraccounts:materialize)](https://atmospherejs.com/useraccounts/materialize)
 [![Build Status](https://travis-ci.org/meteor-useraccounts/materialize.svg?branch=master)](https://travis-ci.org/meteor-useraccounts/materialize)
 
 # useraccounts:materialize
