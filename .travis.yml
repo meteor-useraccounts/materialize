@@ -1,8 +1,15 @@
-sudo: required
 language: node_js
 node_js:
   - "0.10"
-before_install:
-  - "curl -L http://git.io/ejPSng | /bin/sh"
-env:
-  - TEST_COMMAND=meteor
+  
+before_script:
+  # Install meteor
+  - curl https://install.meteor.com | /bin/sh
+  # Add meteor to path (instead of asking for sudo in the Travis container)
+  # We can then use the faster container infrastructure - http://docs.travis-ci.com/user/workers/container-based-infrastructure/
+  - export PATH=$HOME/.meteor:$PATH
+  # Install spacejam, Meteor's CI helper
+  - npm install spacejam
+
+script:
+  - node_modules/.bin/spacejam --mongo-url mongodb:// test-packages ./
