@@ -78,7 +78,8 @@ Package.on_test(function(api) {
   api.use([
     'accounts-password',
     'tinytest',
-    'test-helpers'
+    'test-helpers',
+    'templating'
   ], ['client', 'server']);
 
   api.add_files([
