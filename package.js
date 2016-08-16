@@ -68,6 +68,8 @@ Package.on_use(function(api, where) {
 });
 
 Package.on_test(function(api) {
+  api.versionsFrom('METEOR@1.4.0.1');
+
   api.use([
     'useraccounts:materialize',
     'useraccounts:core@1.14.2',
