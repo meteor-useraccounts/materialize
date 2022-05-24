@@ -5,7 +5,7 @@ Package.describe({
   git: 'https://github.com/meteor-useraccounts/materialize.git',
 });
 
-Package.on_use(function(api, where) {
+Package.onUse(function(api, where) {
   api.versionsFrom(['METEOR@1.0', 'METEOR@2.4']);
 
   api.use([
@@ -25,7 +25,7 @@ Package.on_use(function(api, where) {
     'useraccounts:core@1.16.2',
   ], ['client', 'server']);
 
-  api.add_files([
+  api.addFiles([
     'lib/at_error.html',
     'lib/at_error.js',
     'lib/at_form.html',
@@ -67,7 +67,7 @@ Package.on_use(function(api, where) {
   ], ['client']);
 });
 
-Package.on_test(function(api) {
+Package.onTest(function(api) {
   api.versionsFrom('METEOR@1.4.0.1');
 
   api.use([
@@ -82,7 +82,7 @@ Package.on_test(function(api) {
     'templating'
   ], ['client', 'server']);
 
-  api.add_files([
+  api.addFiles([
     'tests/tests.js'
   ], ['client', 'server']);
 });
