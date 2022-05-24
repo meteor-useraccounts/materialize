@@ -1,12 +1,12 @@
 Package.describe({
   summary: 'Accounts Templates styled for Materialize Css.',
-  version: '1.14.2',
+  version: '1.15.0',
   name: 'useraccounts:materialize',
   git: 'https://github.com/meteor-useraccounts/materialize.git',
 });
 
 Package.on_use(function(api, where) {
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom(['METEOR@1.0', 'METEOR@2.4']);
 
   api.use([
     'templating',
@@ -18,11 +18,11 @@ Package.on_use(function(api, where) {
   ], ['client', 'server']);
 
   // Requires all routing packages loads before this asking for weak dependencies.
-  api.use('useraccounts:flow-routing@1.14.2', ['client', 'server'], {weak: true});
-  api.use('useraccounts:iron-routing@1.14.2', ['client', 'server'], {weak: true});
+  api.use('useraccounts:flow-routing@1.15.0', ['client', 'server'], {weak: true});
+  api.use('useraccounts:iron-routing@1.15.0', ['client', 'server'], {weak: true});
 
   api.imply([
-    'useraccounts:core@1.14.2',
+    'useraccounts:core@1.16.2',
   ], ['client', 'server']);
 
   api.add_files([
